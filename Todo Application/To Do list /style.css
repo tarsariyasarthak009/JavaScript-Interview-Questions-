@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+    color: black;
+    text-align: center;
+}
+input[type="text"] {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none; /* Removes default browser outline */
+}
+
+
+input[type="text"]::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+#btn {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Top/bottom, left/right padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Slightly rounded corners */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+#btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
