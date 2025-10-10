@@ -17,3 +17,4 @@ Q12:Write a Program to sort an array in Ascending Order and Descending Order in 
 Q13:Write a Program to merge two arrays in JavaScript?
 Q14:Date function in javaScript
 Q15:what is object  in javaScript
+
